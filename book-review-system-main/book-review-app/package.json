@@ -1,0 +1,35 @@
+{
+  "name": "book-review-app",
+  "version": "1.0.0",
+  "description": "Server-side book review app with JWT session auth, REST API, and tests",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "test": "mocha --exit"
+  },
+  "keywords": [
+    "express",
+    "jwt",
+    "book",
+    "reviews",
+    "lowdb"
+  ],
+  "author": "Generated",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.1",
+    "lowdb": "^6.0.1",
+    "nanoid": "^4.0.0"
+  },
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0",
+    "nodemon": "^2.0.22",
+    "supertest": "^6.3.3"
+  }
+}
